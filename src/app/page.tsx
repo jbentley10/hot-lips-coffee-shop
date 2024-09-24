@@ -25,7 +25,7 @@ export default function Component() {
       <section className="py-20 text-center" style={{background: "url('/placeholder.svg?height=400&width=1200') no-repeat center center", backgroundSize: 'cover'}}>
         <div className="container mx-auto">
           <h2 className="text-5xl font-bold mb-6">Groovy Vibes, Stellar Coffee</h2>
-          <p className="text-xl mb-8">Experience the far-out flavors of Palm Springs' coolest coffee joint!</p>
+          <p className="text-xl mb-8">Experience the far-out flavors of Palm Springs&apos; coolest coffee joint!</p>
           <Button className="bg-[#f47200] hover:bg-[#e1294a] text-white text-xl py-3 px-8">Order Ahead</Button>
         </div>
       </section>
@@ -61,7 +61,7 @@ export default function Component() {
               <p className="text-xl mb-6">
                 Founded in 1969 by coffee enthusiast Terra, Hot Lips Coffee Shop has been serving
                 Palm Springs the most out-of-sight coffee for over 50 years. As both the owner and head barista,
-                Terra's passion for quality beans and radical roasts has made us a local legend.
+                Terra&apos;s passion for quality beans and radical roasts has made us a local legend.
               </p>
               <Button className="bg-[#f47200] hover:bg-[#e1294a] text-white">Learn More</Button>
             </div>
@@ -120,6 +120,7 @@ export default function Component() {
       <footer className="bg-[#f47200] text-white py-8">
         <div className="container mx-auto text-center">
           <p>&copy; 2023 Hot Lips Coffee Shop. All rights reserved.</p>
+          <p>Website by Palm Springs Web Design</p>
           <p className="mt-2">Stay groovy, Palm Springs!</p>
         </div>
       </footer>
