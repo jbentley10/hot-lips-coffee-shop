@@ -108,7 +108,7 @@ export default function Component() {
               width="600"
               height="450"
               style={{border:0}}
-              allowFullScreen=""
+              allowFullScreen=false
               loading="lazy"
               className="w-full h-full"
             ></iframe>
