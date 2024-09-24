@@ -108,7 +108,7 @@ export default function Component() {
               width="600"
               height="450"
               style={{border:0}}
-              allowFullScreen=false
+              allowFullScreen={false}
               loading="lazy"
               className="w-full h-full"
             ></iframe>
@@ -119,7 +119,7 @@ export default function Component() {
       {/* Footer */}
       <footer className="bg-[#f47200] text-white py-8">
         <div className="container mx-auto text-center">
-          <p>&copy; 2023 Hot Lips Coffee Shop. All rights reserved.</p>
+          <p>&copy; 2024 Hot Lips Coffee Shop. All rights reserved.</p>
           <p>Website by Palm Springs Web Design</p>
           <p className="mt-2">Stay groovy, Palm Springs!</p>
         </div>
